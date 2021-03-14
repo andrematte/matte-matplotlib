@@ -1,0 +1,84 @@
+# All params reference
+# https://matplotlib.org/3.3.2/tutorials/introductory/customizing.html
+
+
+# ----------------------------- Figure Properties ---------------------------- #
+
+figure.figsize: 8, 8
+figure.titleweight: bold
+
+# ------------------------- Figure Saving Properties ------------------------- #
+savefig.dpi: 300
+savefig.format: pdf
+savefig.transparent: True
+savefig.bbox: tight 
+savefig.pad_inches: 0
+
+
+# ------------------------------ Font Properties ----------------------------- #
+
+font.family: Georgia
+font.size: 16
+
+
+# ------------------------------ Axes properties ----------------------------- #
+
+axes.titleweight: bold
+axes.labelweight: bold
+
+axes.linewidth: 1.5
+axes.labelpad: 10
+
+#axes.prop_cycle: cycler(color=['', '', '', '', '', ''])
+#axes.prop_cycle: cycler(color=['118ab2', 'ef476f', '073b4c', 'ffd166', '06d6a0', '7209b7'])
+axes.prop_cycle: cycler(color=['26547c', 'ef476f', 'ffd166', '06d6a0', '7209b7'])
+ 
+axes.grid: True
+axes.axisbelow: True
+
+# ---------------------------------------------------------------------------- #
+#                                Tick Properties                               #
+# ---------------------------------------------------------------------------- #
+
+# ---------------------------------- X-axis ---------------------------------- #
+
+xtick.top: False
+xtick.direction: in
+
+xtick.major.size: 7 
+xtick.major.width: 1.5
+
+xtick.minor.size: 5 
+xtick.minor.width: 1
+
+#xtick.zorder: 0
+
+# ---------------------------------- Y-axis ---------------------------------- #
+
+ytick.right: False
+ytick.direction: in
+
+ytick.major.size: 7 
+ytick.major.width: 1.5
+
+ytick.minor.size: 5 
+ytick.minor.width: 1
+
+#ytick.zorder: 0
+
+# ------------------------------ Grid Properties ----------------------------- #
+
+grid.color: b0b0b0
+grid.alpha: 0.5
+grid.linestyle: -
+grid.linewidth: 0.5
+#grid.zorder: 3
+
+# ------------------------------ Line Properties ----------------------------- #
+
+lines.linewidth: 3
+
+# ----------------------------- Legend Properties ---------------------------- #
+
+#legend.framealpha: 1 
+#legend.frameon: False
