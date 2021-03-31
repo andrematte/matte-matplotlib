@@ -21,7 +21,7 @@ Instructions to install and use this theme:
 
 ## How to use it:
 
-To can set Matte as the current theme:
+To set Matte as the current theme:
 
 ```python
 import matplotlib.pyplot as plt
