@@ -1,4 +1,7 @@
 # Matte Theme for Matplotlib
+
+![](https://img.shields.io/github/license/andrematte/matte-matplotlib?color=red&label=License&style=for-the-badge) ![](https://img.shields.io/github/stars/andrematte/matte-matplotlib?logo=github&style=for-the-badge)
+
  A custom theme for matplotlib! I'm currently working on a dark mode.
 
 
